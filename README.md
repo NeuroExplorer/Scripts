@@ -1,2 +1,2 @@
 # Scripts
-NeuroExplorer scripts
+This repository contains NeuroExplorer scripts.
