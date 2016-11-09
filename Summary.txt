@@ -1,0 +1,2 @@
+PostProcPeaks.py (Finds peaks in numerical results and adds graphics commands to show peaks)
+SimpleSpectrum.py (Calculates the spectrum of the selected signal range via DFTs (no zero-padding))
