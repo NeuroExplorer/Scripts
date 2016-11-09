@@ -7,7 +7,6 @@
 import nex
 import json
 import math
-import cProfile
 
 # helper function to select data from specified time range
 def IntervalFilterVarIfNeeded( doc, var, pars ):
@@ -80,6 +79,4 @@ def Calculate():
         
     doc.SetPythonAnalysisOutput(json.dumps(result))
     
-cProfile.run('Calculate()')
-
-#Calculate()
+Calculate()
